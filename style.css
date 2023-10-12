@@ -89,12 +89,22 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 800px) {
-  .home {
-    display: none;
-  }
-
+@media (max-width: 576px) {
   .about {
     font-size: 50px;
+  }
+  hi {
+    font-size: 60px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .project-paragraph {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
